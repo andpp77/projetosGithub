@@ -1,0 +1,20 @@
+body
+main{
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+h1:hover{
+    color: red;
+}
+a:hover{
+    color: aqua;
+}
