@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Clínica Médica Bem-Estar</h1>
+        </header>
+        <form action="">
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <label for="nomeUsuario">Nome Completo:</label>
+                <input type="text" name="nome" id="nomeUsuario" placeholder="Digite o Nome Completo">
+                <br>
+                <label for="emailUsuario">Endereço de Email:</label>
+                <input type="email" name="email" id="emailUsuario" placeholder="Digite o Email">
+                <br>
+                <label for="telefoneUsuario">Telefone:</label>
+                <input type="tel" name="Telefone" id="telefoneUsuario" placeholder="">
+                <br>
+                <label for="idadeUsuario">Idade:</label>
+                <input type="date" name="idade" id="idadeUsuario">
+                <br>
+                <label for="especialidadeUsuario">Especialidade Medica:</label>
+                <select name="especialidadeMedica" id="especialidadeUsuario">
+                    <option value="">Selecione uma especialidade:</option>
+                    <option value="cardiologista">Cardiologista</option>
+                    <option value="genecologista">Genecologista</option>
+                    <option value="ortopedista">Ortopedista</option>
+                    <option value="dermatologista">Dermatologista</option>
+                    <option value="dentista">Dentista</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Preferências de Horário:</legend>
+                <label for="dataUsuario">Data preferencial:</label>
+                <input type="date" name="dataPreferencial" id="dataUsuario">
+                <br>
+                <label for="horarioUsuario">Horário preferencial:</label>
+                <input type="time" name="horarioPrefencial" id="horarioUsuario">
+            </fieldset>
+            <fieldset>
+                <legend>Observações adicionais</legend>
+                <textarea name="observacoesAdicionais" id="observacoesUsuario" 
+                cols="30" rows="10" placeholder="Digite Aqui suas Observações"></textarea>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </main>
+    <footer>
+        <p>2056 Clínica Médica Bem-Estar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
