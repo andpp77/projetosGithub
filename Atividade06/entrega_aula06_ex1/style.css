@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(61, 57, 57);
+    color: #fff;
+}
+h1, p{
+    margin: 0 ;
+}
+nav{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(61, 57, 57);
+    padding: 10px;
+    font-size: 20px;
+}
+footer{
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
+nav a:hover{
+    background-color: rgb(117, 117, 117);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.produto:hover{
+    transform: scale(1.1);
+}
+.produto{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    background-color:rgb(196, 196, 196);
+}
+.container{
+    margin: 15px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+.novidade{
+    background-color: rgb(236, 187, 64);
+    color: rgb(241, 84, 26);
+}
+.mais_vendidos{
+    background-color: greenyellow;
+    color: green;
+}
